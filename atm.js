@@ -51,9 +51,9 @@ if (operation.input === myPin) {
             let deduction = makeChoice.userChoice -= myBalance;
             console.log(`Your remainig balance is : ${deduction}`);
         }
-        else {
-            console.log("Offer not valid here. Try another way!");
-        }
+    }
+    else {
+        console.log("Offer not valid here. Try another way!");
     }
 }
 else {

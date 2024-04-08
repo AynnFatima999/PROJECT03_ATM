@@ -72,11 +72,11 @@ else if (furtherOperation.operators === "Fast cash") {
      } 
  
 
-    else {
-        console.log("Offer not valid here. Try another way!")
-    }
+    
 }
-
+else {
+    console.log("Offer not valid here. Try another way!")
+}
 
 }
 
